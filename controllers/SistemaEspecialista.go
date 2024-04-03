@@ -13,6 +13,7 @@ func NovoSistemaEspecialista() *SistemaEspecialista {
 	return &SistemaEspecialista{
 		GanhoPeso: []models.Receita{
 			{
+				Horario:      "8:00",
 				Nome:         "4 Ovos cozidos",
 				Descricao:    "Ovos cozidos para ganho de peso.",
 				Calorias:     256,
@@ -21,6 +22,7 @@ func NovoSistemaEspecialista() *SistemaEspecialista {
 				Gorduras:     16,
 			},
 			{
+				Horario:      "12:00",
 				Nome:         "2 Big Mac",
 				Descricao:    "2 Big Mac de leve.",
 				Calorias:     1000,
@@ -29,6 +31,7 @@ func NovoSistemaEspecialista() *SistemaEspecialista {
 				Gorduras:     50,
 			},
 			{
+				Horario:      "20:00",
 				Nome:         "2 Whopper Rodeio",
 				Descricao:    "Whopper pra ganho de peso",
 				Calorias:     1530,
@@ -39,6 +42,7 @@ func NovoSistemaEspecialista() *SistemaEspecialista {
 		},
 		PerdaPeso: []models.Receita{
 			{
+				Horario:      "8:00",
 				Nome:         "2 Folhas de alface",
 				Descricao:    "2 folhas de alface para emagrrecer",
 				Calorias:     2,
@@ -47,6 +51,7 @@ func NovoSistemaEspecialista() *SistemaEspecialista {
 				Gorduras:     0,
 			},
 			{
+				Horario:      "12:00",
 				Nome:         "4 Ovos cozidos",
 				Descricao:    "Ovos cozidos para perda de peso.",
 				Calorias:     256,
@@ -55,6 +60,7 @@ func NovoSistemaEspecialista() *SistemaEspecialista {
 				Gorduras:     16,
 			},
 			{
+				Horario:      "20:00",
 				Nome:         "2 Folhas de alface",
 				Descricao:    "2 folhas de alface para emagrrecer",
 				Calorias:     2,
