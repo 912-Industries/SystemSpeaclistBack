@@ -95,11 +95,11 @@ func NovoSistemaEspecialista() *SistemaEspecialista {
 			},
 			{
 				Horario:   "20:00",
-        Descricao: "150g de peito de frango grelhado 1 batata-doce assada com um fio de azeite de oliva e alecrim Brócolis cozidos no vapor com limão e pimenta",
+        			Descricao: "150g de peito de frango grelhado 1 batata-doce assada com um fio de azeite de oliva e alecrim Brócolis cozidos no vapor com limão e pimenta",
 			},
 			{
 				Horario:   "22:00",
-        Descricao: "1 xícara de leite integral com 1 colher de sopa de cacau em pó e 1 colher de chá de mel",
+        			Descricao: "1 xícara de leite integral com 1 colher de sopa de cacau em pó e 1 colher de chá de mel",
 			},
 		},
 	}
